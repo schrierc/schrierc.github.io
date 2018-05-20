@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.40.3" />
 
-  <title>schrierc</title>
+  <title>Django &middot; schrierc</title>
 
   
   
@@ -40,7 +40,7 @@
 
  
   
-  <link rel="alternate" type="application/rss+xml" title="schrierc" href="https://chris.schrier.cc/index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="schrierc" href="https://chris.schrier.cc/tags/django/index.xml" />
   
 
   
@@ -82,7 +82,7 @@
 
     
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://chris.schrier.cc/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+      <a class="pure-menu-link" href="https://chris.schrier.cc/tags/django/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
     </li>
     
 
@@ -199,8 +199,7 @@
 
 
 <div class="header">
-  <h1>schrierc</h1>
-  <h2></h2>
+  <h1>Django</h1>
 </div>
 
 <div class="content">
@@ -257,200 +256,6 @@ Exception Type: TemplateSyntaxError Exception Value: Could not parse the remaind
 </article>
 
   
-    <article>
-  <header>
-    <h2><a href="https://chris.schrier.cc/post/crashing-crashplan/">Crashing crashplan</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>08 Feb 2013, 13:31</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/backup">backup</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/crashplan">crashplan</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  I&rsquo;m evaluating CrashPlan for performing backups of my home computers. It worked flawlessly for my smaller files (Photos, documents) but started crashing when I added my video directory.
-After a quick search I discovered that the CrashPlan backup service was exceeding its memory allocation. It was trivial to change the allocation from 512m to 1024m:
- Stop the CrashPlan Backup Service Launch notepad as Adminitrator Edit C:\Program Files\CrashPlan\CrashPlanService.ini Change -Xmx512m to -Xmx1024m  Answer from http://homeservershow.
-  </p>
-
-  
-  <footer>
-    <a href="/post/crashing-crashplan/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://chris.schrier.cc/post/tmux-repeating-keys/">tmux repeating keys</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>28 Jul 2011, 14:41</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/linux">linux</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/tmux">tmux</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  When upgrading from tmux 1.1 to 1.5 I found a few key bindings changed slightly. In particular, the arrow keys used to switch panes now repeat.
-I often use the sequence C-b Down immediately followed by Up and then Enter to re-run a unit test. With 1.5 I was doing this too quickly (tmux&rsquo;s repeat-time is 500ms by default) so I was switched back to my previous pane. To fix this I simply added the arrow keys to my .
-  </p>
-
-  
-  <footer>
-    <a href="/post/tmux-repeating-keys/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://chris.schrier.cc/post/invalid-tmux-term-causes-irssi-issues/">Invalid tmux term causes irssi issues</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>26 Jul 2011, 17:29</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/linux">linux</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/bash">bash</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/tmux">tmux</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  Today I finally switched my long-running IRC screen session to tmux. I rarely disconnect so I was simply waiting for a &ldquo;good&rdquo; time.
-After a few minutes I noticed that my irssi scrollback was misbehaving; only half of my window would redraw when I pressed PgUp of PgDn.
-I had manually set TERM=xterm in my bashrc; however, tmux advises only using screen or screen-256color as the term. I have no idea why I had specified term within my bashrc; removing the line and restarting tmux corrected the issue.
-  </p>
-
-  
-  <footer>
-    <a href="/post/invalid-tmux-term-causes-irssi-issues/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://chris.schrier.cc/post/irssi-autolog-options/">irssi autolog options</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>24 Jun 2011, 16:41</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/irc">irc</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/irssi">irssi</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  My favorite IRC client is irssi. I keep a log of my conversations using autolog; however, I dislike logs from chanserv, nickserv, and other random bots which I&rsquo;ll never reference. I discovered that autolog has a setting to ignore them:
-/set autolog_ignore_targets chanserv nickserv
-While searching I also found log_create_mode; irssi&rsquo;s default file mode is 0644. I prefer to keep my conversations private unless I specifically broaden permissions:
-/set log_create_mode 0600
-  </p>
-
-  
-  <footer>
-    <a href="/post/irssi-autolog-options/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-
-  
-
-
 </div>
 
 </div>
@@ -475,4 +280,3 @@ While searching I also found log_create_mode; irssi&rsquo;s default file mode is
 
 </body>
 </html>
-

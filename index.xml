@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>schrierc</title>
+    <link>https://chris.schrier.cc/</link>
+    <description>Recent content on schrierc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Jul 2016 12:08:37 -0400</lastBuildDate>
+    
+	<atom:link href="https://chris.schrier.cc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Django templates: Accessing dict keys with colons</title>
+      <link>https://chris.schrier.cc/post/django-template-colonkeys/</link>
+      <pubDate>Wed, 27 Jul 2016 12:08:37 -0400</pubDate>
+      
+      <guid>https://chris.schrier.cc/post/django-template-colonkeys/</guid>
+      <description>Earlier this week I was updating a dashboard which uses Django templates. The data included a Python dictionary with a key that contains a colon: data:foo.
+Normally the dictionary item is accessed using dotted notation such as {{ mydict.foo }} but using a colon results in a syntax error.
+Exception Type: TemplateSyntaxError Exception Value: Could not parse the remainder: &#39;:foo&#39; from &#39;mydict.data:foo&#39;  The simple fix is to change the key but I don&amp;rsquo;t own this object and it cannot be easily changed.</description>
+    </item>
+    
+    <item>
+      <title>Crashing crashplan</title>
+      <link>https://chris.schrier.cc/post/crashing-crashplan/</link>
+      <pubDate>Fri, 08 Feb 2013 13:31:00 +0000</pubDate>
+      
+      <guid>https://chris.schrier.cc/post/crashing-crashplan/</guid>
+      <description>I&amp;rsquo;m evaluating CrashPlan for performing backups of my home computers. It worked flawlessly for my smaller files (Photos, documents) but started crashing when I added my video directory.
+After a quick search I discovered that the CrashPlan backup service was exceeding its memory allocation. It was trivial to change the allocation from 512m to 1024m:
+ Stop the CrashPlan Backup Service Launch notepad as Adminitrator Edit C:\Program Files\CrashPlan\CrashPlanService.ini Change -Xmx512m to -Xmx1024m  Answer from http://homeservershow.</description>
+    </item>
+    
+    <item>
+      <title>tmux repeating keys</title>
+      <link>https://chris.schrier.cc/post/tmux-repeating-keys/</link>
+      <pubDate>Thu, 28 Jul 2011 14:41:00 +0000</pubDate>
+      
+      <guid>https://chris.schrier.cc/post/tmux-repeating-keys/</guid>
+      <description>When upgrading from tmux 1.1 to 1.5 I found a few key bindings changed slightly. In particular, the arrow keys used to switch panes now repeat.
+I often use the sequence C-b Down immediately followed by Up and then Enter to re-run a unit test. With 1.5 I was doing this too quickly (tmux&amp;rsquo;s repeat-time is 500ms by default) so I was switched back to my previous pane. To fix this I simply added the arrow keys to my .</description>
+    </item>
+    
+    <item>
+      <title>Invalid tmux term causes irssi issues</title>
+      <link>https://chris.schrier.cc/post/invalid-tmux-term-causes-irssi-issues/</link>
+      <pubDate>Tue, 26 Jul 2011 17:29:00 +0000</pubDate>
+      
+      <guid>https://chris.schrier.cc/post/invalid-tmux-term-causes-irssi-issues/</guid>
+      <description>Today I finally switched my long-running IRC screen session to tmux. I rarely disconnect so I was simply waiting for a &amp;ldquo;good&amp;rdquo; time.
+After a few minutes I noticed that my irssi scrollback was misbehaving; only half of my window would redraw when I pressed PgUp of PgDn.
+I had manually set TERM=xterm in my bashrc; however, tmux advises only using screen or screen-256color as the term. I have no idea why I had specified term within my bashrc; removing the line and restarting tmux corrected the issue.</description>
+    </item>
+    
+    <item>
+      <title>irssi autolog options</title>
+      <link>https://chris.schrier.cc/post/irssi-autolog-options/</link>
+      <pubDate>Fri, 24 Jun 2011 16:41:00 +0000</pubDate>
+      
+      <guid>https://chris.schrier.cc/post/irssi-autolog-options/</guid>
+      <description>My favorite IRC client is irssi. I keep a log of my conversations using autolog; however, I dislike logs from chanserv, nickserv, and other random bots which I&amp;rsquo;ll never reference. I discovered that autolog has a setting to ignore them:
+/set autolog_ignore_targets chanserv nickserv
+While searching I also found log_create_mode; irssi&amp;rsquo;s default file mode is 0644. I prefer to keep my conversations private unless I specifically broaden permissions:
+/set log_create_mode 0600</description>
+    </item>
+    
+  </channel>
+</rss>

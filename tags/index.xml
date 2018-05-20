@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on schrierc</title>
+    <link>https://chris.schrier.cc/tags/</link>
+    <description>Recent content in Tags on schrierc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Feb 2013 13:31:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chris.schrier.cc/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Backup</title>
+      <link>https://chris.schrier.cc/tags/backup/</link>
+      <pubDate>Fri, 08 Feb 2013 13:31:00 +0000</pubDate>
+      
+      <guid>https://chris.schrier.cc/tags/backup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>https://chris.schrier.cc/tags/bash/</link>
+      <pubDate>Tue, 26 Jul 2011 17:29:00 +0000</pubDate>
+      
+      <guid>https://chris.schrier.cc/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crashplan</title>
+      <link>https://chris.schrier.cc/tags/crashplan/</link>
+      <pubDate>Fri, 08 Feb 2013 13:31:00 +0000</pubDate>
+      
+      <guid>https://chris.schrier.cc/tags/crashplan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Django</title>
+      <link>https://chris.schrier.cc/tags/django/</link>
+      <pubDate>Wed, 27 Jul 2016 12:08:37 -0400</pubDate>
+      
+      <guid>https://chris.schrier.cc/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Irc</title>
+      <link>https://chris.schrier.cc/tags/irc/</link>
+      <pubDate>Fri, 24 Jun 2011 16:41:00 +0000</pubDate>
+      
+      <guid>https://chris.schrier.cc/tags/irc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Irssi</title>
+      <link>https://chris.schrier.cc/tags/irssi/</link>
+      <pubDate>Fri, 24 Jun 2011 16:41:00 +0000</pubDate>
+      
+      <guid>https://chris.schrier.cc/tags/irssi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://chris.schrier.cc/tags/linux/</link>
+      <pubDate>Thu, 28 Jul 2011 14:41:00 +0000</pubDate>
+      
+      <guid>https://chris.schrier.cc/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://chris.schrier.cc/tags/programming/</link>
+      <pubDate>Wed, 27 Jul 2016 12:08:37 -0400</pubDate>
+      
+      <guid>https://chris.schrier.cc/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://chris.schrier.cc/tags/python/</link>
+      <pubDate>Wed, 27 Jul 2016 12:08:37 -0400</pubDate>
+      
+      <guid>https://chris.schrier.cc/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tmux</title>
+      <link>https://chris.schrier.cc/tags/tmux/</link>
+      <pubDate>Thu, 28 Jul 2011 14:41:00 +0000</pubDate>
+      
+      <guid>https://chris.schrier.cc/tags/tmux/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

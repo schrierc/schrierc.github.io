@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.40.3" />
 
-  <title>schrierc</title>
+  <title>Tmux &middot; schrierc</title>
 
   
   
@@ -40,7 +40,7 @@
 
  
   
-  <link rel="alternate" type="application/rss+xml" title="schrierc" href="https://chris.schrier.cc/index.xml" />
+  <link rel="alternate" type="application/rss+xml" title="schrierc" href="https://chris.schrier.cc/tags/tmux/index.xml" />
   
 
   
@@ -82,7 +82,7 @@
 
     
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://chris.schrier.cc/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+      <a class="pure-menu-link" href="https://chris.schrier.cc/tags/tmux/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
     </li>
     
 
@@ -199,110 +199,10 @@
 
 
 <div class="header">
-  <h1>schrierc</h1>
-  <h2></h2>
+  <h1>Tmux</h1>
 </div>
 
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="https://chris.schrier.cc/post/django-template-colonkeys/">Django templates: Accessing dict keys with colons</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>27 Jul 2016, 12:08</time>
-  </div>
-
-  
-
-  
-  
-  
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/python">python</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/django">django</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/programming">programming</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  Earlier this week I was updating a dashboard which uses Django templates. The data included a Python dictionary with a key that contains a colon: data:foo.
-Normally the dictionary item is accessed using dotted notation such as {{ mydict.foo }} but using a colon results in a syntax error.
-Exception Type: TemplateSyntaxError Exception Value: Could not parse the remainder: ':foo' from 'mydict.data:foo'  The simple fix is to change the key but I don&rsquo;t own this object and it cannot be easily changed.
-  </p>
-
-  
-  <footer>
-    <a href="/post/django-template-colonkeys/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://chris.schrier.cc/post/crashing-crashplan/">Crashing crashplan</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>08 Feb 2013, 13:31</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/backup">backup</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/crashplan">crashplan</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  I&rsquo;m evaluating CrashPlan for performing backups of my home computers. It worked flawlessly for my smaller files (Photos, documents) but started crashing when I added my video directory.
-After a quick search I discovered that the CrashPlan backup service was exceeding its memory allocation. It was trivial to change the allocation from 512m to 1024m:
- Stop the CrashPlan Backup Service Launch notepad as Adminitrator Edit C:\Program Files\CrashPlan\CrashPlanService.ini Change -Xmx512m to -Xmx1024m  Answer from http://homeservershow.
-  </p>
-
-  
-  <footer>
-    <a href="/post/crashing-crashplan/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
   
     <article>
   <header>
@@ -399,58 +299,6 @@ I had manually set TERM=xterm in my bashrc; however, tmux advises only using scr
 </article>
 
   
-    <article>
-  <header>
-    <h2><a href="https://chris.schrier.cc/post/irssi-autolog-options/">irssi autolog options</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>24 Jun 2011, 16:41</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/irc">irc</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://chris.schrier.cc/tags/irssi">irssi</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  My favorite IRC client is irssi. I keep a log of my conversations using autolog; however, I dislike logs from chanserv, nickserv, and other random bots which I&rsquo;ll never reference. I discovered that autolog has a setting to ignore them:
-/set autolog_ignore_targets chanserv nickserv
-While searching I also found log_create_mode; irssi&rsquo;s default file mode is 0644. I prefer to keep my conversations private unless I specifically broaden permissions:
-/set log_create_mode 0600
-  </p>
-
-  
-  <footer>
-    <a href="/post/irssi-autolog-options/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-
-  
-
-
 </div>
 
 </div>
@@ -475,4 +323,3 @@ While searching I also found log_create_mode; irssi&rsquo;s default file mode is
 
 </body>
 </html>
-
