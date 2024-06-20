@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on schrierc.dev</title>
+    <link>https://schrierc.dev/posts/</link>
+    <description>Recent content in Posts on schrierc.dev</description>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Jul 2016 08:37:00 +0000</lastBuildDate>
+    <atom:link href="https://schrierc.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Django templates: Accessing dict keys with colons</title>
+      <link>https://schrierc.dev/posts/django-template-colonkeys/</link>
+      <pubDate>Wed, 27 Jul 2016 08:37:00 +0000</pubDate>
+      <guid>https://schrierc.dev/posts/django-template-colonkeys/</guid>
+      <description>Earlier this week I was updating a dashboard which uses Django templates. The data included a Python dictionary with a key that contains a colon: data:foo.
+Normally the dictionary item is accessed using dotted notation such as {{ mydict.foo }} but using a colon results in a syntax error.
+Exception Type: TemplateSyntaxError Exception Value: Could not parse the remainder: &amp;#39;:foo&amp;#39; from &amp;#39;mydict.data:foo&amp;#39; The simple fix is to change the key but I don&amp;rsquo;t own this object and it cannot be easily changed.</description>
+    </item>
+    <item>
+      <title>tmux Repeating Keys</title>
+      <link>https://schrierc.dev/posts/tmux-repeating-keys/</link>
+      <pubDate>Thu, 28 Jul 2011 14:41:00 +0000</pubDate>
+      <guid>https://schrierc.dev/posts/tmux-repeating-keys/</guid>
+      <description>When upgrading from tmux 1.1 to 1.5 I found a few key bindings changed slightly. In particular, the arrow keys used to switch panes now repeat.
+I often use the sequence C-b Down immediately followed by Up and then Enter to re-run a unit test. With 1.5 I was doing this too quickly (tmux&amp;rsquo;s repeat-time is 500ms by default) so I was switched back to my previous pane. To fix this I simply added the arrow keys to my .</description>
+    </item>
+    <item>
+      <title>Invalid tmux term causes irssi issues</title>
+      <link>https://schrierc.dev/posts/invalid-tmux-term-causes-irssi-issues/</link>
+      <pubDate>Tue, 26 Jul 2011 17:29:00 +0000</pubDate>
+      <guid>https://schrierc.dev/posts/invalid-tmux-term-causes-irssi-issues/</guid>
+      <description>Today I finally switched my long-running IRC screen session to tmux. I rarely disconnect so I was simply waiting for a &amp;ldquo;good&amp;rdquo; time.
+After a few minutes I noticed that my irssi scrollback was misbehaving; only half of my window would redraw when I pressed PgUp of PgDn.
+I had manually set TERM=xterm in my bashrc; however, tmux advises only using screen or screen-256color as the term. I have no idea why I had specified term within my bashrc; removing the line and restarting tmux corrected the issue.</description>
+    </item>
+    <item>
+      <title>irssi autolog options</title>
+      <link>https://schrierc.dev/posts/irssi-autolog-options/</link>
+      <pubDate>Fri, 24 Jun 2011 16:41:00 +0000</pubDate>
+      <guid>https://schrierc.dev/posts/irssi-autolog-options/</guid>
+      <description>My favorite IRC client is irssi. I keep a log of my conversations using autolog; however, I dislike logs from chanserv, nickserv, and other random bots which I&amp;rsquo;ll never reference. I discovered that autolog has a setting to ignore them:
+/set autolog_ignore_targets chanserv nickserv
+While searching I also found log_create_mode; irssi&amp;rsquo;s default file mode is 0644. I prefer to keep my conversations private unless I specifically broaden permissions:
+/set log_create_mode 0600</description>
+    </item>
+  </channel>
+</rss>
