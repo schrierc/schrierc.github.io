@@ -6,8 +6,29 @@
     <description>Recent content in Tags on schrierc.dev</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Jul 2016 08:37:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 00:45:51 +0000</lastBuildDate>
     <atom:link href="https://schrierc.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breakfast</title>
+      <link>https://schrierc.dev/tags/breakfast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://schrierc.dev/tags/breakfast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Casserole</title>
+      <link>https://schrierc.dev/tags/casserole/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://schrierc.dev/tags/casserole/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sausage</title>
+      <link>https://schrierc.dev/tags/sausage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://schrierc.dev/tags/sausage/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Django</title>
       <link>https://schrierc.dev/tags/django/</link>

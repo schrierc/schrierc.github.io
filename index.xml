@@ -6,8 +6,16 @@
     <description>Recent content on schrierc.dev</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Jul 2016 08:37:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 00:45:51 +0000</lastBuildDate>
     <atom:link href="https://schrierc.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breakfast Casserole Sausage Country Gravy</title>
+      <link>https://schrierc.dev/recipes/breakfast-casserole-sausage-country-gravy/</link>
+      <pubDate>Thu, 20 Jun 2024 00:45:51 +0000</pubDate>
+      <guid>https://schrierc.dev/recipes/breakfast-casserole-sausage-country-gravy/</guid>
+      <description>Serves 8-10
+Ingredients 2 (2 3/4 ounce) packages white country gravy mix 6 cups tater tots, thawed 1 lb sausage, casings removed 3 cups milk 6 large eggs 2 cups grated cheddar cheese Directions Cook tater tots as package directs until extra crispy. Return oven temperature to 350 degrees. In a skillet, cook the sausage, breaking it up with the spatula as it cooks, drain fat. In a bowl, gradually whisk the gravy mix into the milk.</description>
+    </item>
     <item>
       <title>Django templates: Accessing dict keys with colons</title>
       <link>https://schrierc.dev/posts/django-template-colonkeys/</link>
