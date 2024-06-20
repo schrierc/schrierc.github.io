@@ -6,8 +6,15 @@
     <description>Recent content in Posts on schrierc.dev</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Jul 2016 08:37:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 13:20:10 +0000</lastBuildDate>
     <atom:link href="https://schrierc.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New drip coffee maker</title>
+      <link>https://schrierc.dev/posts/new-drip-coffee-maker/</link>
+      <pubDate>Thu, 20 Jun 2024 13:20:10 +0000</pubDate>
+      <guid>https://schrierc.dev/posts/new-drip-coffee-maker/</guid>
+      <description>After eight years of near daily use, my 14 cup Cuisinart Coffee Maker (DCC-3200P1) needed replacement. Early one morning I discovered the lid wouldn&amp;rsquo;t open completely, preventing me from adding water and ground coffee. Nothing was obviously out of place; however, a small plastic piece shot from the device as I gently tried to debug the problem. I couldn&amp;rsquo;t determine where the piece came from and none of the online repair guides seemed to cover the internal lid components.</description>
+    </item>
     <item>
       <title>Django templates: Accessing dict keys with colons</title>
       <link>https://schrierc.dev/posts/django-template-colonkeys/</link>
